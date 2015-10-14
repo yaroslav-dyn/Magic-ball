@@ -1,0 +1,47 @@
+body{
+    font: Verdana, Arial, sans-serif;
+    background: url(8_ball_bg_simp.png) repeat;
+}
+#wrapper{
+	margin: 15% auto;
+}
+#ball_bg{
+		width: 400px;
+		height: 400px;
+		background: rgb(0, 0, 6);
+			background: -moz-linear-gradient(302deg, rgb(0, 0, 6)75%, rgb(224, 255, 255) 100%);
+			background: -webkit-linear-gradient(302deg, rgb(0, 0, 6)75%, rgb(224, 255, 255) 100%);
+			background: -o-linear-gradient(302deg, rgb(0, 0, 6)75%, rgb(224, 255, 255) 100%);
+			background: -ms-linear-gradient(302deg, rgb(0, 0, 6)75%, rgb(224, 255, 255) 100%);
+			background: linear-gradient(32deg, rgb(0, 0, 6)75%, rgb(224, 255, 255) 100%);
+		margin: 0 auto;
+		border-radius: 50%;
+		position: relative;
+}
+#ball_wind {
+	width: 164px;
+	height: 164px;
+	background: rgba(37, 148, 255, 0.7);
+	top: 28%;
+	left: 28%;
+	position: absolute;
+	z-index: 3;	
+  	padding: 6px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+#ball_wind_inner{
+    width: inherit;
+	height: inherit;
+    font: 0.8em 'Comic Sans MS', cursive; 
+    text-align: center;
+    z-index: 2;
+    border: 1px solid #000;  
+    background: rgba(7, 6, 23, 0.95);
+    border-radius: 50%;
+    color: #fff;
+    text-shadow: 1px 0px 1px #c6c6c6; 
+}
+#ball_wind_inner_text{
+	margin-top: 25%;	
+}
