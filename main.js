@@ -84,7 +84,9 @@ function answer(textAnswer){
 			.animate({top: "-=12"}, 50)
 			.animate({top: "+=12"}, 40)
 			.animate({top: "-=8"}, 50, function(){
-				$('#ball_wind_inner_text').html(answer());
+				setTimeout(function(){
+					$('#ball_wind_inner_text').html(answer());
+				}, 190);	 	
 			});
 	});
 
